@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.main"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+          
+     <application
+        android:allowBackup="true"   
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"            
+        android:theme="@android:style/Theme.NoTitleBar" >        
+        
+        <activity
+            android:name="app.main.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name ="app.main.cl_login" android:screenOrientation="portrait"></activity>  
+        <activity android:name = "app.main.cl_menu_main" android:screenOrientation="portrait"></activity>
+        <activity android:name = "app.main.cl_cliente_lista" android:screenOrientation="portrait"></activity>  
+        <activity android:name = "app.main.cl_pedido_lista" android:screenOrientation="portrait"></activity>  
+        <activity android:name = "app.main.cl_liquidar" android:screenOrientation="portrait"></activity>  
+        <activity android:name = "app.main.cl_liquidar_estados" android:screenOrientation="portrait"></activity>  
+        <activity android:name = "app.main.cl_hoja_ruta_lista" android:screenOrientation="portrait"></activity>  
+        <activity android:name = "app.services.cl_service_main" android:screenOrientation="portrait"></activity>  
+        <activity android:name = "app.main.cl_pendiente_lista" android:screenOrientation="portrait"></activity>   
+        <activity android:name = "app.main.cl_consultas" android:screenOrientation="portrait"></activity>  
+        <activity android:name = "app.main.cl_rep_cumplimiento_dia" android:screenOrientation="portrait"></activity>  
+        <activity android:name = "app.main.cl_rep_estado_entrega_dia" android:screenOrientation="portrait"></activity>   
+        
+        <!-- Supervisores -->
+        <activity android:name="app.main.cl_supervisor_menu_main"></activity>
+        <activity android:name = "app.main.cl_supervisor_avance" ></activity>
+        <activity android:name = "app.main.cl_supervisor_avance_detalle" ></activity>
+        <activity android:name = "app.main.cl_supervisor_estadistica" ></activity>
+        <activity android:name = "app.main.cl_supervisor_estadistica_detalle" ></activity>       
+        
+                        
+    </application>
+    
+
+</manifest>

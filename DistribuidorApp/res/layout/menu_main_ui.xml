@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_main"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/menu_vertical_margin"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp" >
+
+                <ImageView
+                    android:id="@+id/imvMSincronizar"
+                    style="@style/MenuIcono"
+                    android:contentDescription="@string/mSincronizar"
+                    android:src="@drawable/menu_1" />
+
+                <TextView
+                    android:id="@+id/txtPedido"
+                    style="@style/MenuTexto"
+                    android:layout_below="@+id/imvMSincronizar"                    
+                    android:text="@string/mSincronizar" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp" >
+
+                <ImageView
+                    android:id="@+id/imvMIniciarHR"
+                    style="@style/MenuIcono"
+                    android:contentDescription="@string/mIniciar"
+                    android:src="@drawable/menu_2" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/MenuTexto"
+                    android:layout_below="@+id/imvMIniciarHR"
+                    android:text="@string/mIniciar" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/menu_vertical_margin" >
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="100dp" >
+
+            <ImageView
+                android:id="@+id/imvMPendientes"
+                style="@style/MenuIcono"
+                android:contentDescription="@string/mPendiente"
+                android:src="@drawable/menu_3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/MenuTexto"
+                android:layout_below="@+id/imvMPendientes"
+                android:text="@string/mPendiente" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="100dp" >
+
+            <ImageView
+                android:id="@+id/imvMDestinos"
+                style="@style/MenuIcono"
+                android:contentDescription="@string/mDestino"
+                android:src="@drawable/menu_4" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/MenuTexto"
+                android:layout_below="@+id/imvMDestinos"
+                android:text="@string/mDestino" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/menu_vertical_margin" >
+
+          <RelativeLayout
+              android:layout_width="150dp"
+              android:layout_height="100dp" >
+
+              <ImageView
+                  android:id="@+id/imvMConsultas"
+                  style="@style/MenuIcono"
+                  android:contentDescription="@string/mConsulta"
+                  android:src="@drawable/menu_5" />
+
+              <TextView
+                  android:id="@+id/textView5"
+                  style="@style/MenuTexto"
+                  android:layout_below="@+id/imvMConsultas"
+                  android:text="@string/mConsulta" />
+
+          </RelativeLayout>
+
+          <RelativeLayout
+              android:layout_width="150dp"
+              android:layout_height="100dp" >
+
+              <ImageView
+                  android:id="@+id/imvMSalir"
+                  style="@style/MenuIcono"
+                  android:contentDescription="@string/mSalir"
+                  android:src="@drawable/menu_6" />
+
+              <TextView
+                  android:id="@+id/textView6"
+                  style="@style/MenuTexto"
+                  android:layout_below="@+id/imvMSalir"
+                  android:text="@string/mSalir" />
+
+          </RelativeLayout>
+
+        </LinearLayout>
+
+  </LinearLayout> 
+    
+</LinearLayout>

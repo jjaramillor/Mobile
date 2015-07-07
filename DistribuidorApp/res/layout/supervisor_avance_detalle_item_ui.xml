@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#888888"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/txtTransportista1"
+            style="@style/grillaItem"
+            android:layout_width="30dp"           
+            android:text="Transp"/>
+
+        <TextView
+            android:id="@+id/txtPlaneado1"           
+            style="@style/grillaItem" 
+            android:width="200dp"
+            android:layout_toRightOf="@+id/txtTransportista1"
+            android:text="Planeado" />
+
+        <TextView
+            android:id="@+id/txtEfectuado1"
+            style="@style/grillaItem"
+            android:width="40dp"
+             android:layout_toRightOf="@+id/txtPlaneado1"         
+            android:text="Efec" />
+
+        <TextView
+            android:id="@+id/txtHR1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtEfectuado1"
+            android:text="HR"/>
+        
+        <TextView
+            android:id="@+id/txtDocumento1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtHR1"
+            android:text="Doc"/>
+        
+        <TextView
+            android:id="@+id/txtPedido1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtDocumento1"
+            android:text="Pedido"/>
+
+        <TextView
+            android:id="@+id/txtCliente1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtPedido1"
+            android:text="cliente"/>
+        
+         <TextView
+            android:id="@+id/txtDestinatario1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtCliente1"
+            android:text="dest"/>
+         
+         <TextView
+            android:id="@+id/txtFlgLiquida1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtDestinatario1"
+            android:text="dest"/>
+         
+         <TextView
+            android:id="@+id/txtPartida1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtFlgLiquida1"
+            android:text="dest"/>
+         
+         <TextView
+            android:id="@+id/txtLlegada1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtPartida1"
+            android:text="dest"/>
+         
+         <TextView
+            android:id="@+id/txtDescargo1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtCliente1"
+            android:text="dest"/>
+         
+         <TextView
+            android:id="@+id/txtLiquidado1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtDescargo1"
+            android:text="dest"/>
+         
+         <TextView
+            android:id="@+id/txtCodMotivo1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtLiquidado1"
+            android:text="dest"/>
+         
+         <TextView
+            android:id="@+id/txtMotivo1"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtCodMotivo1"
+            android:text="dest"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroud_login"
+    android:gravity="center_vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="120dp" >
+
+        <EditText
+            android:id="@+id/dfUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:gravity="center_vertical|fill_horizontal"
+            android:hint="@string/usuario"
+            android:inputType="textPersonName" />
+        
+        <EditText
+            android:id="@+id/dfContrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint="@string/contrasena"
+            android:inputType="textPassword" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imgTrans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                           
+                android:src="@drawable/login_transp_w" />
+
+			<TextView
+			    android:id="@+id/txtTransportista"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@+id/imgTrans"
+			    android:layout_marginLeft="-25dp"
+			    android:text="TRANSPORTISTA"
+			    android:textSize="12dp" />
+			
+            <ImageView
+                android:id="@+id/imgSup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"               
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/imgTrans"
+                android:src="@drawable/login_sup_r" />
+
+            <TextView
+                android:id="@+id/textSupervisor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgSup"
+                android:layout_marginLeft="90dp"
+                android:text="SUPERVISOR"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/imbLoginCia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="INGRESAR" />
+
+    </LinearLayout>
+
+</LinearLayout>

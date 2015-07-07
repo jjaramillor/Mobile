@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#888888"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/txtNro"
+            style="@style/grillaItem"
+            android:layout_width="30dp"           
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/txtTransportista"           
+            style="@style/grillaItem" 
+            android:width="200dp"
+            android:layout_toRightOf="@+id/txtNro"
+            android:text="Transportita" />
+
+        <TextView
+            android:id="@+id/txtDocumentos"
+            style="@style/grillaItem"
+            android:width="40dp"
+             android:layout_toRightOf="@+id/txtTransportista"         
+            android:text="doc" />
+
+        <TextView
+            android:id="@+id/txtAvance"
+            style="@style/grillaItem"
+            android:width="40dp"    
+            android:layout_toRightOf="@+id/txtDocumentos"
+            android:text="%"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/item_table1"
+    android:orientation="vertical" >
+ 
+    <TextView
+        android:id="@android:id/text1"
+        style="@style/matrixItem"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:text="texto aca"
+        android:textColor="#FFF" />
+	  
+
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dip"
+	    android:background="@drawable/line_black" />
+
+</LinearLayout>

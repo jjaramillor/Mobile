@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_main"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvUsuarioSup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/menu_vertical_margin"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp" >
+
+                <ImageView
+                    android:id="@+id/imvMSupAvance"
+                    style="@style/MenuIcono"
+                    android:contentDescription="@string/mSupAvance"
+                    android:src="@drawable/menusup_1" />
+
+                <TextView
+                    android:id="@+id/txtSupAvance"
+                    style="@style/MenuTexto"
+                    android:layout_below="@+id/imvMSupAvance"                    
+                    android:text="@string/mSupAvance" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp" >
+
+                <ImageView
+                    android:id="@+id/imvMSupEstadistica"
+                    style="@style/MenuIcono"
+                    android:contentDescription="@string/mSupEstadistica"
+                    android:src="@drawable/menusup_2" />
+
+                <TextView
+                    android:id="@+id/txtSupEstadistica"
+                    style="@style/MenuTexto"
+                    android:layout_below="@+id/imvMSupEstadistica"
+                    android:text="@string/mSupEstadistica" />
+
+            </RelativeLayout>
+
+        </LinearLayout>  
+
+  </LinearLayout> 
+    
+</LinearLayout>

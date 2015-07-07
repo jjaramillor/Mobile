@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:background="#888888"
+    android:orientation="vertical"
+    android:paddingLeft="5dp" >
+
+    <TextView
+        android:id="@+id/txtPedido"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@+id/chbPedido"
+        android:gravity="center|left"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <CheckBox
+        android:id="@+id/chbPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"          
+        android:layout_alignParentRight="true" 
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/imvCheckPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chbPedido"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/chk_total_32"
+        android:visibility="invisible" />
+  
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="SettingCodeFontBold" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textStyle">bold</item>
+	</style> 
+	<style name="SettingCodeFont" parent="@android:style/TextAppearance.Medium">
+	        <item name="android:layout_width">fill_parent</item>
+	        <item name="android:layout_height">wrap_content</item>
+	        <item name="android:textColor">#000000</item>
+	        <item name="android:typeface">monospace</item>
+	        
+	</style>
+	
+	<style name="TituloHeader" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#F60000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:contentDescription">14dp</item> 
+        <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:layout_marginLeft">10dp</item>
+	    <item name="android:gravity">center|left</item>   
+      
+    </style>
+    
+	<style name="MenuTexto" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>        
+        <item name="android:textColor">#F60000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:contentDescription">14dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>     
+        
+    </style>
+    
+	<style name="MenuIcono" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">80dp</item>  
+    </style>
+    <style name="LiquidarIcono" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:focusable">true</item>    
+         
+    </style>
+    
+    <style name="ListItem" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#F60000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">#888888</item> 
+        <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">50dp</item>
+	    <item name="android:layout_gravity">center_horizontal</item>
+	   <item name="android:orientation">horizontal</item>
+          
+    </style>
+    
+    <style name="grillaHeader" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#F60000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">50dp</item>
+        <item name="android:contentDescription">12dp</item> 
+	    <item name="android:gravity">center|center</item>   
+      
+    </style>
+    <style name="grillaItem" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">50dp</item>
+        <item name="android:contentDescription">12dp</item> 
+	    <item name="android:gravity">center|left</item>   
+      
+    </style>
+    
+     <style name="matrixItem" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">10dp</item>        
+        <item name="android:contentDescription">10dp</item> 	 
+      
+    </style>
+
+</resources>

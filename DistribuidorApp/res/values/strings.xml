@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">DisTrack</string>
+	<string name="action_settings">Settings</string>
+    <string name="ip">localhost:8025</string>    
+    <string name="txt_home" formatted="false">
+        <![CDATA[                 
+        <p align="justify">Somos una empresa de servicios logísticos especializada en brindar soluciones 
+		a toda la cadena de suministros, desde la importación y/o fabricación de su producto hasta la entrega al destinatario final. 
+		Con capacidades, infraestructura, tecnología y altos estándares	de servicio.</p>
+		<br><br>
+		<p style="text-align:center">Signia © Todos los derechos reservados</p>
+		<p style="text-align:center">servicedesk@hersil.com.pe</p>
+		<p style="text-align:center">713-3333 Anexo: 40911</p>        
+        ]]>
+     </string>    
+    <string name="appTitle">DisTrack</string>
+    <string name="myhost">http://www.solarconsultores.com/</string>
+    
+    <!--<string name="myhost">http://200.48.25.139:85/</string>  -->
+    <string name="login">Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="lbl_login">Iniciar Sesión</string>
+    
+    <!-- Menu principal -->
+    <string name="mSincronizar">SINCRONIZAR</string>
+    <string name="mIniciar">INICIAR HR</string>
+    <string name="mPendiente">PENDIENTES</string>
+    <string name="mDestino">DESTINOS</string>
+    <string name="mConsulta">CONSULTAS</string>
+    <string name="mSalir">SALIR</string>
+    
+    <!-- Sub menu Lista -->
+    <string name="smPartida">PARTIDA</string>
+    <string name="smLlegada">LLEGADA</string>
+    <string name="smDescarga">DESCARGA</string>
+    <string name="smLiquidar">LIQUIDAR</string>
+    
+    <!-- Mensajes -->
+    <string name="msjNoInternet">No hay conexión a internet.\n-Verifique su conexión, y vuelva a intentar ingresar</string>
+    <string name="mSupEstadistica">Estadistica</string>
+    <string name="mSupAvance">Avance</string>
+    
+</resources>

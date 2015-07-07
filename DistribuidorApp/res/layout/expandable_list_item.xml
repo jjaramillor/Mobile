@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slide="http://schemas.android.com/apk/res/sft.lib.Expandable"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<RelativeLayout
+	    android:id="@+id/item"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:layout_gravity="center_horizontal"
+	    android:background="#888888"
+	    android:orientation="horizontal" >
+
+		<TextView
+		    android:id="@+id/text"
+		    android:layout_width="match_parent"
+		    android:layout_height="25dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_toLeftOf="@+id/expandable_toggle_button"
+		    android:gravity="top"
+		    android:paddingLeft="5dp"
+		    android:text="nombre de cliente"
+		    android:textColor="#FFFFFF"
+		    android:textSize="16dp" />		
+
+		<TextView
+		    android:id="@+id/textDireccion"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/text"
+		    android:layout_toLeftOf="@+id/expandable_toggle_button"
+		    android:paddingLeft="5dp"
+		    android:text="Direccion"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:textSize="10dp" />
+		
+		<ImageView
+		    android:id="@+id/expandable_toggle_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"		    
+		    android:layout_alignParentRight="true"
+		    android:src="@drawable/item_mas" />
+
+	</RelativeLayout>
+
+	<LinearLayout
+	    android:id="@+id/expandable"
+	    android:layout_width="fill_parent"
+	    android:layout_height="90dp"
+	    android:background="#fff"
+	    android:orientation="horizontal" >
+
+		<RelativeLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_weight="0.5"
+		    android:paddingTop="10dp" >
+
+			<ImageView
+			    android:id="@+id/imvPartida"
+			    android:layout_width="match_parent"
+			    android:layout_height="50dp"
+			    android:layout_weight="0.5"
+			    android:focusable="true"
+			    android:src="@drawable/item_partida" />
+
+			<TextView
+			    android:id="@+id/txtPedido"
+			    style="@style/MenuTexto"
+			    android:layout_below="@+id/imvPartida"
+			    android:text="@string/smPartida"
+			    android:textColor="#009E0F" />
+
+		</RelativeLayout>
+
+		<RelativeLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_weight="0.5"
+		    android:paddingTop="10dp" >
+
+			<ImageView
+			    android:id="@+id/imvLlegada"
+			    android:layout_width="match_parent"
+			    android:layout_height="50dp"
+			    android:layout_weight="0.5"
+			    android:focusable="true"
+			    android:src="@drawable/item_llegada" />
+
+			<TextView
+			    android:id="@+id/textView2"
+			    style="@style/MenuTexto"
+			    android:layout_below="@+id/imvLlegada"
+			    android:text="@string/smLlegada"
+			    android:textColor="#FF9400" />
+
+		</RelativeLayout>
+
+		<RelativeLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_weight="0.5"
+		    android:paddingTop="10dp" >
+
+			<ImageView
+			    android:id="@+id/imvDescargo"
+			    android:layout_width="match_parent"
+			    android:layout_height="50dp"
+			    android:layout_weight="0.5"
+			    android:focusable="true"
+			    android:src="@drawable/item_descargo" />
+
+			<TextView
+			    android:id="@+id/textView3"
+			    style="@style/MenuTexto"
+			    android:layout_below="@+id/imvDescargo"
+			    android:text="@string/smDescarga" />
+
+		</RelativeLayout>
+
+		<RelativeLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="90dp"
+		    android:layout_weight="0.5"
+		    android:paddingTop="10dp" >
+
+		    <ImageView
+		        android:id="@+id/imvLiquidar"
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:layout_weight="0.5"
+		        android:src="@drawable/item_liquidar" />
+
+		    <TextView
+		        android:id="@+id/textNroSync"
+		        style="@style/MenuTexto"
+		        android:layout_below="@+id/imvLiquidar"
+		        android:text="@string/smLiquidar"
+		        android:textColor="#0099cc" />
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
